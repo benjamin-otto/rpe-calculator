@@ -1,0 +1,52 @@
+@import '@fontsource/nova-square';
+
+:root {
+  font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  --black-color: #47434C;
+  --white-color: #ffffff;
+  --red-color: #D3432B;
+  --dark-blue-color: #0C1C46;
+  --light-blue-color: #6387E3;
+  --light-gold-color: #F9E49F;
+  --dark-gold-color: #E6B40F;
+  --border-radius: 4px;
+}
+
+body {
+  background-image: url('/arnold.webp');
+  background-size: 256px;
+  font-family: 'Nova square';
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: 64px;
+  }
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  font-family: 'Nova square';
+  /* max-width: 200px; */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-blue-color);
+  border: 4px solid var(--dark-blue-color);
+  border-radius: var(--border-radius);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--dark-gold-color);
+}
+
+::selection {
+  background: var(--light-gold-color);
+}
