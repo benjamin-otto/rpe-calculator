@@ -1,6 +1,6 @@
-# Deployed on Netlify
+# RPE Weight Calculator
 
-<a href="https://get-in-da-choppa-rpe-calculator.netlify.app/">RPE Weight Calculator ⬈</a>
+<a href="https://get-in-da-choppa-rpe-calculator.netlify.app/">Live Demo ⬈</a>
 
 <p>  
     <img src="https://github.com/benjamin-otto/rpe-calculator/blob/main/screenshots/screenshot.png?raw=true" alt="RPE Calculator" width="100%"/>
